@@ -409,7 +409,7 @@ impl Data {
         self.0.len()
     }
     pub fn empty(&self) -> bool {
-        self.0empty()
+        self.0.len() == 0
     }
 }
 
