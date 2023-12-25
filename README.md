@@ -4,7 +4,7 @@ This library implements message parsing for the RTPS protocol written in Rust.
 
 DDS is a middleware protocol and API standard for data-centric connectivity. The main goal of DDS is to share the right data at the right place at the right time, even between time-decoupled publishers and consumers.
 
-This library uses the code of (https://github.com/s2e-systems/dust-dds)[Dust DDS], an awesome DDS library written in Rust. The motivation for this code extraction is to make the RTPS packet parsing capabilities available for other programs. For example a DDS middleware can inspect the RTPS messages, modify them on the fly or drop them based on some firewal logic.
+This library uses the code of [Dust DDS](https://github.com/s2e-systems/dust-dds), an awesome DDS library written in Rust. The motivation for this code extraction is to make the RTPS packet parsing capabilities available for other programs. For example a DDS middleware can inspect the RTPS messages, modify them on the fly or drop them based on some firewal logic.
 
 ## Example
 
