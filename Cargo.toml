@@ -2,6 +2,11 @@
 name = "rtps-parser"
 version = "0.1.0"
 edition = "2021"
+license-file = "LICENSE"
+description = "RTPS protocol parser library in pure Rust"
+repository = "https://github.com/hydroid7/rtps-parser"
+readme = "README.md"
+keywords = ["rtps", "dds", "parser", "network", "protocol"]
 
 [lib]
 crate-type = ["cdylib"]
