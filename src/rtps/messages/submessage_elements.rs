@@ -408,6 +408,9 @@ impl Data {
     pub fn len(&self) -> usize {
         self.0.len()
     }
+    pub fn empty(&self) -> bool {
+        self.0empty()
+    }
 }
 
 impl AsRef<[u8]> for Data {
