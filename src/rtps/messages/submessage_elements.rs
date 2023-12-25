@@ -332,6 +332,10 @@ impl ArcSlice {
         self.range.len()
     }
 
+    pub fn is_empty(&self) -> bool {
+        self.range.len() == 0
+    }
+
     pub fn as_slice(&self) -> &[u8] {
         &self.data[self.range.clone()]
     }
@@ -408,7 +412,7 @@ impl Data {
     pub fn len(&self) -> usize {
         self.0.len()
     }
-    pub fn empty(&self) -> bool {
+    pub fn is_empty(&self) -> bool {
         self.0.len() == 0
     }
 }
