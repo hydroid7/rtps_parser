@@ -1,18 +1,18 @@
 use std::time::Duration as StdDuration;
-
-
 pub mod rtps;
 pub mod parameter_id_values;
 
 pub type Duration = StdDuration;
 
+// Some convenience reexports
+pub use crate::rtps::messages::overall_structure as prelude;
+
 #[cfg(test)]
 mod integration_test {
     use std::sync::Arc;
 
-    use crate::rtps::messages::overall_structure::RtpsMessageRead;
-
-
+    use crate::prelude::RtpsMessageRead;
+    
     #[test]
     fn test_example_read() {
         #[rustfmt::skip]

@@ -1,5 +1,5 @@
 [package]
-name = "rtps-parser"
+name = "rtps_parser"
 version = "0.1.1"
 edition = "2021"
 license-file = "LICENSE"
