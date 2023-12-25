@@ -8,9 +8,6 @@ repository = "https://github.com/hydroid7/rtps-parser"
 readme = "README.md"
 keywords = ["rtps", "dds", "parser", "network", "protocol"]
 
-[lib]
-crate-type = ["cdylib"]
-
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
