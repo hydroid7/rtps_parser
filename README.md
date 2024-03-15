@@ -39,6 +39,9 @@ let data = Arc::new([
 let msg = RtpsMessageRead::new(data);
 println!("Received {} submessages", msg.submessages().len());
 ```
+## TODO
+- Remove dependecy to DustDDS
+- Make it `no_std` compatible
 
 ## License
 
