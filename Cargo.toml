@@ -12,4 +12,4 @@ keywords = ["rtps", "dds", "parser", "network", "protocol"]
 
 [dependencies]
 byteorder = "1.4.3"
-dust_dds = "0.6.0"
+dust_dds = "0.8.1"
